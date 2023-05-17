@@ -3,7 +3,7 @@ describe("home page tests", () => {
     cy.visit("https://www.molecule.to/");
   });
 
-  it.only("tests nav links", () => {
+  it("tests nav links", () => {
     //cy.get(".nav-container a").eq(0).should("have.attr", "href", "/");
 
     const links = [
